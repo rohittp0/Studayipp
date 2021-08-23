@@ -4,7 +4,7 @@
 	}],
 	"settings": {
 		"editor.snippetSuggestions": "inline",
-		"files.excludee": {
+		"files.exclude": {
 			".github": true,
 			"**/.git": true,
 			".gitignore": true,
@@ -27,7 +27,9 @@
 			"__tests__/__snapshots__":true,
 			"functions/yarn.lock":true,
 			"web/index.html": true,
-			"web/robots.txt": true
+			"web/robots.txt": true,
+			"*-debug.log":true,
+			"README.md": true
 
 		},
 		"eslint.validate": ["typescript", "javascript", "javascriptreact", "typescriptreact"],
